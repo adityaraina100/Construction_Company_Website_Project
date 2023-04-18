@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Lato:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  color: aliceblue;
+  min-height: 100vh;
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+}
+
+.header__title {
+  font-family: "Lato", sans-serif;
+  font-size: 4em;
+  font-weight: 800;
+  margin: 1rem 1rem 1rem 20rem;
+}
+.header__ul {
+  display: flex;
+  flex-flow: row;
+  list-style: none;
+  font-size: 1.5em;
+  margin: 1em auto 2em;
+  justify-content: space-evenly;
+}
+.header__ul a {
+  text-decoration: none;
+  color: #fff;
+}
+.header__ul a:hover,
+a:focus {
+  text-decoration: none;
+  color: red;
+}
+.backImg {
+  width: 100%;
+  height: 800px;
+  background:
+        /* top, transparent black, faked with gradient */ linear-gradient(
+      rgba(0, 0, 0, 0.704),
+      rgba(0, 0, 0, 0.362)
+    ),
+    url(Images/silhouette-engineer-worker-checking-project-building-site-background-construction-sunset-evening-time-172981212.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main {
+  position: relative;
+}
+.wePrep {
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  border-radius: 15px;
+  padding: 40px;
+}
+.wePrep p {
+  line-height: 30px;
+}
+.wePrep h4 {
+  font-size: 3rem;
+}
+.main__btn {
+  font: inherit;
+  font-size: 1.5em;
+  width: 197px;
+  margin: 1em 0;
+  border-radius: 10px;
+  padding: 10px;
+}
+.contactBtn {
+  background-color: #ff6000;
+  color: #fff;
+}
+.contactBtn:hover {
+  background-color: #fe8437;
+  color: #fff;
+}
+.projectBtn:hover {
+  background-color: #cbc8c8;
+  color: #1a1919;
+}
+
+.bullets {
+  background-color: #ff6000;
+  border-radius: 15px;
+  width: 679px;
+  height: 256px;
+  position: absolute;
+  top: 35em;
+  right: 0%;
+}
+.bullets__ul {
+  font-size: 1.3em;
+  line-height: 2em;
+  list-style: none;
+  padding: 53px 50px;
+}
+.intro {
+  background-color: #222222;
+  height: 649px;
+  display: flex;
+  flex-flow: row;
+  padding: 100px 31px 0px 100px;
+}
+.intro__content > h1 {
+  font-size: 2em;
+  color: #ff7420;
+  margin-bottom: 2em;
+}
+.intro__content {
+  width: 812px;
+  font-size: 1em;
+  line-height: 2.5em;
+}
+.intro img {
+  display: block;
+  height: 500px;
+  width: 803px;
+}

@@ -4,21 +4,29 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
 body {
   background-color: black;
   color: aliceblue;
   min-height: 100vh;
   font-size: 1rem;
   font-family: "Inter", sans-serif;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
-.header__title {
+#header > h1 {
   font-family: "Lato", sans-serif;
-  font-size: 4em;
+  font-size: 3.5em;
   font-weight: 800;
   margin: 1rem 1rem 1rem 20rem;
 }
-.header__ul {
+.nav_list {
   display: flex;
   flex-flow: row;
   list-style: none;
@@ -26,31 +34,27 @@ body {
   margin: 1em auto 2em;
   justify-content: space-evenly;
 }
-.header__ul a {
+.nav_list a {
   text-decoration: none;
   color: #fff;
 }
-.header__ul a:hover,
+.nav_list a:hover,
 a:focus {
   text-decoration: none;
   color: red;
 }
-.backImg {
+.hero__background {
   width: 100%;
   height: 800px;
-  background:
-        /* top, transparent black, faked with gradient */ linear-gradient(
-      rgba(0, 0, 0, 0.704),
-      rgba(0, 0, 0, 0.362)
-    ),
-    url(Images/silhouette-engineer-worker-checking-project-building-site-background-construction-sunset-evening-time-172981212.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.704), rgba(0, 0, 0, 0.362)),
+    url(Images/HeaderImg.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
-main {
+#hero {
   position: relative;
 }
-.wePrep {
+.hero__content {
   width: 500px;
   height: 300px;
   position: absolute;
@@ -59,13 +63,13 @@ main {
   border-radius: 15px;
   padding: 40px;
 }
-.wePrep p {
+#hero p {
   line-height: 30px;
 }
-.wePrep h4 {
+.hero__content h4 {
   font-size: 3rem;
 }
-.main__btn {
+#hero button {
   font: inherit;
   font-size: 1.5em;
   width: 197px;
@@ -79,21 +83,19 @@ main {
 }
 .contactBtn:hover {
   background-color: #fe8437;
-  color: #fff;
 }
 .projectBtn:hover {
   background-color: #cbc8c8;
   color: #1a1919;
 }
-
-.bullets {
-  background-color: #ff6000;
+.hero__bullets {
+  background: linear-gradient(135deg, #ff6000, #000);
   border-radius: 15px;
   width: 679px;
   height: 256px;
   position: absolute;
-  top: 35em;
-  right: 0%;
+  top: 40%;
+  right: 5%;
 }
 .bullets__ul {
   font-size: 1.3em;
@@ -101,12 +103,13 @@ main {
   list-style: none;
   padding: 53px 50px;
 }
-.intro {
+#intro {
   background-color: #222222;
   height: 649px;
   display: flex;
   flex-flow: row;
   padding: 100px 31px 0px 100px;
+  justify-content: space-between;
 }
 .intro__content > h1 {
   font-size: 2em;
@@ -115,11 +118,61 @@ main {
 }
 .intro__content {
   width: 812px;
-  font-size: 1em;
-  line-height: 2.5em;
+  font-size: 1.2em;
+  line-height: 2em;
+  text-align: justify;
 }
-.intro img {
+#intro img {
   display: block;
-  height: 500px;
-  width: 803px;
+  height: 400px;
+  width: 500px;
+}
+#experience {
+  background-color: #1a1919;
+}
+.experience__bullets {
+  width: 600px;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+  font-size: 1em;
+  padding: 40px;
+}
+.experience__brief__bullets {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+}
+.orange__digit {
+  color: #ff6000;
+  font-weight: 800;
+  font-size: 3em;
+}
+.experience__content {
+  display: flex;
+}
+.experience__content > img {
+  width: 800px;
+  height: auto;
+  padding: 40px;
+}
+.orange__years {
+  color: #ff6000;
+  font-size: 3rem;
+  white-space: nowrap;
+}
+.experience__header--remain {
+  font-size: 3rem;
+}
+.experienceWritten {
+  padding: 40px;
+}
+.content {
+  padding-top: 25px;
+  font-size: 1.3rem;
+  line-height: 1.5em;
+  text-align: justify;
 }

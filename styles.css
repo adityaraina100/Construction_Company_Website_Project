@@ -6,6 +6,7 @@
 }
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 1em;
 }
 body::-webkit-scrollbar {
   display: none;
@@ -80,6 +81,12 @@ a:focus {
 .contactBtn {
   background-color: #ff6000;
   color: #fff;
+  position: relative;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 .contactBtn:hover {
   background-color: #fe8437;
@@ -128,7 +135,7 @@ a:focus {
   width: 500px;
 }
 #experience {
-  background-color: #1a1919;
+  background-color: #000000;
 }
 .experience__bullets {
   width: 600px;
@@ -139,6 +146,10 @@ a:focus {
   list-style: none;
   font-size: 1em;
   padding: 40px;
+}
+
+.noBreak {
+  white-space: nowrap;
 }
 .experience__brief__bullets {
   display: flex;
@@ -175,4 +186,57 @@ a:focus {
   font-size: 1.3rem;
   line-height: 1.5em;
   text-align: justify;
+}
+#steps {
+  margin-top: 70px;
+  padding: 60px;
+  background-color: #222222;
+}
+#steps img {
+  width: 100%;
+  height: auto;
+}
+#footer {
+  margin: 244px 0 50px;
+  background-color: #222222;
+  padding: 40px;
+}
+#footer > h2 {
+  color: #ff6000;
+  font-size: 2rem;
+  margin: 1em 0 1.5em;
+}
+.footer__details > ul {
+  list-style: none;
+}
+.footer__details {
+  display: flex;
+  width: 100%;
+  margin: 1em 0;
+  justify-content: space-between;
+}
+.footer__details--heading {
+  margin-bottom: 1em;
+}
+.footer__aboutUs {
+  width: 576px;
+}
+.footer__address {
+  width: 304px;
+}
+.footer__contact {
+  width: 283px;
+}
+.contactList,
+.footer__link--list {
+  list-style: none;
+  line-height: 1.5em;
+}
+.footer__link--list a {
+  color: #fff;
+  text-decoration: none;
+}
+.copyright {
+  text-align: center;
+  margin-bottom: 20px;
 }

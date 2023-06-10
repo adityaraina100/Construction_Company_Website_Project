@@ -1,24 +1,20 @@
 /* Importing Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Lato:wght@400;700&display=swap");
-
 /* Global reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 /* HTML styles */
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 1em;
 }
-
 /* Body styles */
 body::-webkit-scrollbar {
   display: none;
 }
-
 body {
   background-color: black;
   color: aliceblue;
@@ -28,7 +24,6 @@ body {
   overflow-y: scroll;
   overflow-x: hidden;
 }
-
 /* Header styles */
 #header > h1 {
   font-family: "Lato", sans-serif;
@@ -36,7 +31,6 @@ body {
   font-weight: 800;
   margin: 1rem 1rem 1rem 20rem;
 }
-
 /* Navigation styles */
 .nav_list {
   display: flex;
@@ -46,18 +40,15 @@ body {
   margin: 1em auto 2em;
   justify-content: space-evenly;
 }
-
 .nav_list a {
   text-decoration: none;
   color: #fff;
 }
-
 .nav_list a:hover,
 a:focus {
   text-decoration: none;
   color: red;
 }
-
 /* Hero section styles */
 .hero__background {
   width: 100%;
@@ -67,11 +58,9 @@ a:focus {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 #hero {
   position: relative;
 }
-
 .hero__content {
   width: 500px;
   height: 300px;
@@ -81,15 +70,12 @@ a:focus {
   border-radius: 15px;
   padding: 40px;
 }
-
 #hero p {
   line-height: 30px;
 }
-
 .hero__content h4 {
   font-size: 3rem;
 }
-
 #hero button {
   font: inherit;
   font-size: 1.5em;
@@ -98,28 +84,23 @@ a:focus {
   border-radius: 10px;
   padding: 10px;
 }
-
 .contactBtn {
   background-color: #ff6000;
   color: #fff;
   position: relative;
 }
-
 .center {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
-
 .contactBtn:hover {
   background-color: #fe8437;
 }
-
 .projectBtn:hover {
   background-color: #cbc8c8;
   color: #1a1919;
 }
-
 /* Hero bullets styles */
 .hero__bullets {
   background: linear-gradient(135deg, #ff6000, #000);
@@ -130,14 +111,12 @@ a:focus {
   top: 40%;
   right: 5%;
 }
-
 .bullets__ul {
   font-size: 1.3em;
   line-height: 2em;
   list-style: none;
   padding: 53px 50px;
 }
-
 /* Intro section styles */
 #intro {
   background-color: #222222;
@@ -171,7 +150,6 @@ a:focus {
 #experience {
   background-color: #000000;
 }
-
 .experience__bullets {
   width: 600px;
   display: flex;
@@ -182,34 +160,28 @@ a:focus {
   font-size: 1em;
   padding: 40px;
 }
-
 .noBreak {
   white-space: nowrap;
 }
-
 .experience__brief__bullets {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 200px;
 }
-
 .orange__digit {
   color: #ff6000;
   font-weight: 800;
   font-size: 3em;
 }
-
 .experience__content {
   display: flex;
 }
-
 .experience__content > img {
   width: 800px;
   height: auto;
   padding: 40px;
 }
-
 .orange__years {
   color: #ff6000;
   font-size: 3rem;

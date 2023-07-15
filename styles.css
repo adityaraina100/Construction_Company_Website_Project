@@ -203,7 +203,10 @@ a:focus {
   line-height: 1.5em;
   text-align: justify;
 }
-
+#content h2
+{
+  color:#FF6000;
+}
 /* Steps section styles */
 #steps {
   margin-top: 70px;

@@ -216,6 +216,12 @@ a:focus {
   height: auto;
 }
 
+#content
+{
+  margin:50px 0;
+  padding:10px;
+}
+
 /* Footer section styles */
 #footer {
   margin: 244px 0 50px;

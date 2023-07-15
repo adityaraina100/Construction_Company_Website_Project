@@ -195,7 +195,15 @@ a:focus {
 .experienceWritten {
   padding: 40px;
 }
-
+#content
+{
+  margin:50px 0;
+  padding:10px;
+}
+#content h2
+{
+  color:#FF6000;
+}
 /* Content styles */
 .content {
   padding-top: 25px;
@@ -276,4 +284,66 @@ a:focus {
 .copyright {
   text-align: center;
   margin-bottom: 20px;
+}
+/* Form styles */
+.contact__form {
+  margin-top: 40px;
+}
+
+.form__group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.submitBtn {
+  font-family: "Lato", sans-serif;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  background-color: #ff6000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submitBtn:hover {
+  background-color: #fe8437;
+}
+
+/* Map styles */
+#map {
+  margin-top: 40px;
+}
+
+.map__container {
+  height: 400px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.map__container p {
+  font-size: 1.2rem;
+  color: #555;
 }

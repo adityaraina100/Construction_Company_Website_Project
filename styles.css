@@ -195,7 +195,15 @@ a:focus {
 .experienceWritten {
   padding: 40px;
 }
-
+#content
+{
+  margin:50px 0;
+  padding:10px;
+}
+#content h2
+{
+  color:#FF6000;
+}
 /* Content styles */
 .content {
   padding-top: 25px;
@@ -203,16 +211,7 @@ a:focus {
   line-height: 1.5em;
   text-align: justify;
 }
-#content h2
-{
-  color:#FF6000;
-}
-.content {
-  padding-top: 25px;
-  font-size: 1.3rem;
-  line-height: 1.5em;
-  text-align: justify;
-}
+
 /* Steps section styles */
 #steps {
   margin-top: 70px;
@@ -223,12 +222,6 @@ a:focus {
 #steps img {
   width: 100%;
   height: auto;
-}
-
-#content
-{
-  margin:50px 0;
-  padding:10px;
 }
 
 /* Footer section styles */
@@ -287,10 +280,12 @@ a:focus {
   text-decoration: none;
 }
 
+/* Copyright text */
 .copyright {
   text-align: center;
   margin-bottom: 20px;
 }
+/* Form styles */
 .contact__form {
   margin-top: 40px;
 }
@@ -334,6 +329,7 @@ textarea {
   background-color: #fe8437;
 }
 
+/* Map styles */
 #map {
   margin-top: 40px;
 }

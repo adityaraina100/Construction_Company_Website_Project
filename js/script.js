@@ -1,8 +1,8 @@
 /**
- * WEBSITE: https://themefisher.com
- * TWITTER: https://twitter.com/themefisher
- * FACEBOOK: https://www.facebook.com/themefisher
- * GITHUB: https://github.com/themefisher/
+ * WEBSITE: https://project pals.com
+ * TWITTER: https://twitter.com/project pals
+ * FACEBOOK: https://www.facebook.com/project pals
+ * GITHUB: https://github.com/project pals/
  */
 
 jQuery(function ($) {

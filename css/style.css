@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,500,500i,600,600i,700,700i,800|Open+Sans:400,400i,600,600i,700,700i,800&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Teko:wght@300..700&display=swap');
 /* Typography
 ================================================== */
 body {
@@ -8,7 +8,7 @@ body {
 
 body,
 p {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased !important;
   line-height: 26px;
@@ -23,7 +23,9 @@ h5,
 h6 {
   color: #212121;
   font-weight: 700;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Teko", serif;
+;
+  
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased !important;
 }
@@ -1811,10 +1813,10 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  animation-duration: 300ms;
+  transition-duration: 1000ms;
 }
 .service-image:hover{
-  scale: 1.2;
+  scale: 1.1;
 }
 
 .ts-service-icon i {
